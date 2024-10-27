@@ -50,29 +50,6 @@ sales = [
     Sales(23, 3)
 ]
 
-# def query_books_by_shops():
-#     return sorted([(book.title, shop.shop_name) for item in sales for book in books for shop in bookshops \
-#                      if (item.book_id == book.book_id) and (item.shop_id == shop.shop_id)], \
-#                      key=lambda x: x[1])
-
-# def query_total_price_per_shop():
-#     return sorted([(shop.shop_name, \
-#         sum(book.price for book in books if book.shop_id == shop.shop_id)) for shop in bookshops], \
-#         key=lambda x: x[1], reverse=True)
-
-# def query_shops_with_books():
-#     return [(shop.shop_name, [book.title for book in books if book.shop_id == shop.shop_id]) for shop in bookshops \
-#             if "Books" in shop.shop_name]
-
-
-# print("Запрос 1: Книги по магазинам")
-#     print(query_books_by_shops())
-
-#     print("\nЗапрос 2: Суммарная стоимость книг по магазинам")
-#     print(query_total_price_per_shop())
-
-#     print("\nЗапрос 3: Магазины с книгами")
-#     print(query_shops_with_books())
 
 def main():
     """Основная функция"""
