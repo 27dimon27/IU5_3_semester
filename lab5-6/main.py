@@ -34,7 +34,7 @@ allowed_characters = [ ["абвгдеёжзийклмнопрстуфхцчшщ�
 allowed_characters[0][1] = allowed_characters[0][0].upper()
 allowed_characters[1][1] = allowed_characters[1][0].upper()
 
-bot_token = "7415547863:AAHtPSxG76wkDgt73eWi3TEqyktuSp57PfM"
+bot_token = "BOT_TOKEN"
 
 async def send_delayed_message(chat_id: int):
     global counter_active
